@@ -37,11 +37,11 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
-				'https://google.com',	// this is the LINK place in the class
+				'Golden Gate Bridge', 		// this is the TITLE place in the class
+				'https://www.google.com/search?q=golden+gate+bridge&safe=active&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiXkvbZttnTAhUD7mMKHWxaDn8Q_AUICigB#imgrc=67N6jJGAIeQgWM:',	// this is the LINK place in the class
 				'An Author',			// this is the AUTHOR place in the class
-				'https://unsplash.it/200',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'http://assets.fodors.com/destinations/708037/golden-gate-bridge-san-francisco-california-1_main.jpg',	// this is the IMAGE place in the class
+				'The Golden Gate Bridge.' // this is the BODY place in the class
 				),
 
 			new Post(
