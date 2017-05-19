@@ -39,23 +39,23 @@ const app = new Vue({
 			new Post(
 				'Golden Gate Bridge', 		// this is the TITLE place in the class
 				'https://www.google.com/search?q=golden+gate+bridge&safe=active&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiXkvbZttnTAhUD7mMKHWxaDn8Q_AUICigB#imgrc=67N6jJGAIeQgWM:',	// this is the LINK place in the class
-				'An Author',			// this is the AUTHOR place in the class
+				'Sydne Long',			// this is the AUTHOR place in the class
 				'http://assets.fodors.com/destinations/708037/golden-gate-bridge-san-francisco-california-1_main.jpg',	// this is the IMAGE place in the class
-				'The Golden Gate Bridge.' // this is the BODY place in the class
+				'The Golden Gate Bridge is a suspension bridge spanning the Golden Gate straight, the one mile wide (1.6 km), 1.7 mile long (2.7 kn) channel between the San Francisco Bay and the Pacific Ocean. The Formers travel guide describes the Golden Gate Bridge as "possibly the most beautiful, certainly the most photographed, bridge in the world. It opened in 1937 and was, until 1964, the longest suspension bridge main span in the world, at 4,200 feet (1,300 m).' // this is the BODY place in the class
 				),
 
 			new Post(
-				'Second Post: Lorem',
-				'https://vuejs.org',
-				'Sammie Author',
-				'img-200.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'AT&T Park: Home of the San Francisco Giants',
+				'https://www.mlb.com/giants',
+				'still Sydne Long',
+				'http://www.giantsportal.com/photos/datamax/image32.jpg', // this is a local image in the same folder as the js script
+				'The Giants have won six pennants and three World Series Championships since arriving in San Fancisco. Thos three championships have come in 2010 against the Texas Rangers, 2012 against the Detroit Tigers and 2014 against the Kansas City Royals.'
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
+				'Lombard Street',
 				'https://google.com',
-				'Bob Author',
+				'... yep still Sydne Long',
 				'https://unsplash.it/200',
 				'Crazy Fredrick bought many very exquisite opal jewels.'
 				),

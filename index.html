@@ -18,7 +18,7 @@
 		<style type="text/css">
 
 			.isRed {
-				color:red;
+				color:darkorange;
 			}
 
 		</style>
@@ -48,10 +48,10 @@
 
 		<div class="col-md-4"> <!-- page left -->
 
-			<input class="form-control input-lg" type="text" v-model="keyword" name="search" placeholder="Search..."> <!-- This is IMPORTANT!
+			<input class="form-control input-lg" type="text" v-model="keyword" name="search" placeholder="Search Keyword..."> <!-- This is IMPORTANT!
 			It is the binding to the Vue2 model that processes the data -->
 
-			<div class="help-block">Type keyword search terms</div>
+			<div class="help-block">Type keyword to find in Document</div>
 
 		</div> <!-- end page left -->
 
@@ -68,7 +68,7 @@
 					</div>
 					<div class="panel-body">
 
-						<img class="img-circle" :src="post.img"> <!-- this is bound to the img slot -->
+						<img class="img-circle" :src="post.img" width="400px"> <!-- this is bound to the img slot -->
 						<h4><em>by {{post.author}}</em></h4>
 
 						<p>{{post.body}}</p> <!-- this is bound to the body slot -->
